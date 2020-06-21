@@ -484,4 +484,49 @@
 //     document.write(name);
 // }
 // upperCase("saylani");
+// question # 12
+// function findLongestWord(str) {
+//     var array1 = str.match(/\w[a-z]{0,}/gi);
+//     var result = array1[0];
+
+//     for (var x = 1; x < array1.length; x++) {
+//         if (result.length < array1[x].length) {
+//             result = array1[x];
+//         }
+//     }
+//     return result;
+// }
+// document.write('<h2>Question # 12</h2>');
+
+// document.write(findLongestWord('Web Development Tutorial'));
+
+// question # 13
+// var specificLetter = (string, letter) => {
+//     var j = 0;
+//     for (i = 0; i < string.length; i++) {
+//         if (letter == string[i]) {
+//             j++;
+//         }
+
+//     }
+//     console.log('j is ' + ' ' + j);
+
+// }
+// specificLetter('JSResourceS.com', 'o');
+
+// question # 14
+// var calcCircumference = (radius) => {
+//     document.write('The circumference is ' + ' ' + (2 * 3.142 * radius));
+//     document.write('<br>');
+
+
+
+// }
+// var calcArea = (radius) => {
+//     document.write('The Area is ' + ' ' + (3.142 * (radius * radius)))
+
+// }
+// calcCircumference(3);
+// calcArea(2);function find_longest_word(str)
+
 
